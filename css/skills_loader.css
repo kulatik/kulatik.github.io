@@ -1,0 +1,229 @@
+.progress-css{
+    position: relative;
+    height: 16px;
+    width: 30%;
+    border: 3px solid #1b1835;
+    margin: 2em;
+}
+.progress-css .color-css{
+    position: absolute;
+    background-color: #1b1835;
+    width: 0px;
+    height: 16px;
+    animation: progres-css 4s; 
+    animation-fill-mode: both;
+ 
+}
+@keyframes progres-css{
+    0% {width: 0%; }
+    25% {width: 0%; }
+    50% {width: 0%; }
+    100% {width: 60%; }
+    
+}
+
+.progress-html{
+    position: relative;
+    height: 16px;
+    width: 30%;
+    border: 3px solid #1b1835;
+    margin: 2em;
+}
+.progress-html .color-html{
+    position: absolute;
+    background-color: #1b1835;
+    width: 0px;
+    height: 16px;
+    animation: progres-html 4s; 
+    animation-fill-mode: both;
+ 
+}
+@keyframes progres-html{
+    0% {width: 0%; }
+    25% {width: 0%; }
+    50% {width: 0%; }
+    100% {width: 60%; }
+}
+
+.progress-php{
+    position: relative;
+    height: 16px;
+    width: 30%;
+    border: 3px solid #1b1835;
+    margin: 2em;
+}
+.progress-php .color-php{
+    position: absolute;
+    background-color: #1b1835;
+    width: 0px;
+    height: 16px;
+    animation: progres-php 4s; 
+    animation-fill-mode: both;
+ 
+}
+@keyframes progres-php{
+    0% {width: 0%; }
+    25% {width: 0%; }
+    50% {width: 0%; }
+    100% {width: 40%; }
+}
+
+.progress-js{
+    position: relative;
+    height: 16px;
+    width: 30%;
+    border: 3px solid #1b1835;
+    margin: 2em;
+}
+.progress-js .color-js{
+    position: absolute;
+    background-color: #1b1835;
+    width: 0px;
+    height: 16px;
+    animation: progres-js 4s; 
+    animation-fill-mode: both;
+ 
+}
+@keyframes progres-js{
+    0% {width: 0%; }
+    25% {width: 0%; }
+    50% {width: 0%; }
+    100% {width: 20%; }
+}
+
+.progress-rn{
+    position: relative;
+    height: 16px;
+    width: 30%;
+    border: 3px solid #1b1835;
+    margin: 2em;
+}
+.progress-rn .color-rn{
+    position: absolute;
+    background-color: #1b1835;
+    width: 0px;
+    height: 16px;
+    animation: progres-rn 4s; 
+    animation-fill-mode: both;
+ 
+}
+@keyframes progres-rn{
+    0% {width: 0%; }
+    25% {width: 0%; }
+    50% {width: 0%; }
+    100% {width: 20%; }
+}
+
+.progress-wp{
+    position: relative;
+    height: 16px;
+    width: 30%;
+    border: 3px solid #1b1835;
+    margin: 2em;
+}
+.progress-wp .color-wp{
+    position: absolute;
+    background-color: #1b1835;
+    width: 0px;
+    height: 16px;
+    animation: progres-wp 4s; 
+    animation-fill-mode: both;
+ 
+}
+@keyframes progres-wp{
+    0% {width: 0%; }
+    25% {width: 0%; }
+    50% {width: 0%; }
+    100% {width: 80%; }
+}
+
+.progress-git{
+    position: relative;
+    height: 16px;
+    width: 30%;
+    border: 3px solid #1b1835;
+    margin: 2em;
+}
+.progress-git .color-git{
+    position: absolute;
+    background-color: #1b1835;
+    width: 0px;
+    height: 16px;
+    animation: progres-git 4s; 
+    animation-fill-mode: both;
+ 
+}
+@keyframes progres-git{
+    0% {width: 0%; }
+    25% {width: 0%; }
+    50% {width: 0%; }
+    100% {width: 40%; }
+}
+
+.progress-gh{
+    position: relative;
+    height: 16px;
+    width: 30%;
+    border: 3px solid #1b1835;
+    margin: 2em;
+}
+.progress-gh .color-gh{
+    position: absolute;
+    background-color: #1b1835;
+    width: 0px;
+    height: 16px;
+    animation: progres-gh 4s; 
+    animation-fill-mode: both;
+ 
+}
+@keyframes progres-gh{
+    0% {width: 0%; }
+    25% {width: 0%; }
+    50% {width: 0%; }
+    100% {width: 40%; }
+}
+
+.progress-lx{
+    position: relative;
+    height: 16px;
+    width: 30%;
+    border: 3px solid #1b1835;
+    margin: 2em;
+}
+.progress-lx .color-lx{
+    position: absolute;
+    background-color: #1b1835;
+    width: 0px;
+    height: 16px;
+    animation: progres-lx 4s; 
+    animation-fill-mode: both;
+ 
+}
+@keyframes progres-lx{
+    0% {width: 0%; }
+    25% {width: 0%; }
+    50% {width: 0%; }
+    100% {width: 60%; }
+}
+.progress-cpt{
+    position: relative;
+    height: 16px;
+    width: 30%;
+    border: 3px solid #1b1835;
+    margin: 2em;
+}
+.progress-cpt .color-cpt{
+    position: absolute;
+    background-color: #1b1835;
+    width: 0px;
+    height: 16px;
+    animation: progres-cpt 4s; 
+    animation-fill-mode: both;
+ 
+}
+@keyframes progres-cpt{
+    0% {width: 0%; }
+    25% {width: 0%; }
+    50% {width: 0%; }
+    100% {width: 60%; }
+}
