@@ -1,6 +1,6 @@
 h1 {
     font-family: 'Comfortaa', bold;
-    color: #dcee11;
+    color: #EDD66B;
     font-size: 61px;
 }
 h3 {
@@ -38,7 +38,7 @@ li {
 }
 li a{
     font-family: 'Comfortaa';
-    color: #dcee11;
+    color: #EDD66B;
     text-decoration: none;
     margin: 2em;
     font-weight: 700;
@@ -48,6 +48,7 @@ li a{
     display: flex;
     flex-direction: row;
     padding-top: 105px;
+    padding-bottom: 6em;
 }
 .about_me {
     margin-left: 145px;
@@ -105,7 +106,7 @@ li a{
     font-size: 2em;
   }
   .skills {
-    
+    padding-bottom: 3.5em;
   }
   .skills-title {
     display: flex;
@@ -135,10 +136,28 @@ li a{
  .table-skills {
     display: flex;
     flex-direction: row;
+    justify-content: right;
  }
  .level-skills {
-    width: 100%;
+    width: 65%;
  }
  .name-skills {
-    width: 30%;
+    width: 25%;
+ }
+ .arrow {
+    background: #1b1835;
+    text-align: center;
+    padding-bottom: 2em;
+ }
+
+ .certsec {
+    background: #EDD66B;
+ }
+ .certsec h3 {
+     color:#1b1835;
+     padding: 3.4em;
+ }
+ .certyfikaty {
+    display: flex;
+    justify-content: space-around;
  }

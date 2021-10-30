@@ -6,6 +6,8 @@
         <title>Nikita</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/slider.css">
+        <script src="js/slider_certyfikat.js"></script>
         <link rel="stylesheet" href="css/skills_loader.css">
         <link rel="stylesheet" href="style/Comfortaa.css">
         
@@ -35,11 +37,17 @@
                 <br /><br />
                 <h5>Od 3 lat mieszkam w Polsce i posiadam peen</h5><h5>dostęp do rynku pracy.</h5>
             </div>
+
+            
             <div >
                
             </div>
+            
         </div>
-        <div class="skills">
+        <div class="arrow">
+           <a href="#skills"> <img src="img/arrow-1.svg"></a>
+        </div>
+        <div class="skills" id="skills">
             <div style="display: flex;">
                 <div class="skills-title">
                     <h3>W tych technologiach się specjalizuję:</h3>
@@ -94,8 +102,44 @@
                 </div>
             </div>
         </div>
+        <div class="arrow" style="background: white;">
+            <a href=""><img src="img/arrow-2.svg"></a>
+        </div>
+        <div class="certsec">
+            <h3>Certyfikaty</h3>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade certyfikaty">
+                    <img src="img/strefa.jpg" alt="certyfikat z strefakursów" width="400px" height="292px">
+                    <img src="img/eduweb.png" alt="certyfikat z eduweb" width="400px" height="292px">
+                  <div class="text">Caption Text</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="img_snow_wide.jpg" style="width:100%">
+                  <div class="text">Caption Two</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="img_mountains_wide.jpg" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+        </div>
         <footer>
-           
+            
         </footer>   
     </body>
     
