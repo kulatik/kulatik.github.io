@@ -1,6 +1,5 @@
 h1 {
     font-family: 'Comfortaa', bold;
-    color: #EDD66B;
     font-size: 61px;
 }
 h2{
@@ -9,12 +8,10 @@ h2{
 }
 h3 {
     font-size: 39px;
-    color: #fff;
     font-family: 'Comfortaa', regular ;
 }
 h5 {
     font-size: 22px;
-    color:#fff;
     font-family: 'Comfortaa', regular ;
     line-height: 180%;
 }
@@ -23,7 +20,6 @@ h6{
 }
 p{
     font-size: 16px;
-    color:#fff;
     font-family: 'Comfortaa', regular ;
 }
 header {
@@ -46,6 +42,18 @@ li a{
     text-decoration: none;
     margin: 2em;
     font-weight: 700;
+}
+.about_me h1 {
+    color:#EDD66B;
+}
+.name_marg h3{
+    color:#FFFFFF;
+}
+.name_marg h5 {
+    color:#FFFFFF;
+}
+.about_me h5 {
+    color:#FFFFFF;
 }
 .hero {
     background: #1b1835;
@@ -207,4 +215,45 @@ top: 36%;
 }
 .laser-title {
     margin: 3.4em;
+}
+.laserpremium {
+    display: flex;
+    margin: 3.4em;  
+}
+.laser-photo {
+    margin: 2em;
+    display: flex;
+flex-direction: column;
+align-items: end;
+}
+.opis h5, .detailed h5, .opis p{
+    margin-bottom: 1em;
+}
+.opis p {
+    line-height: 180%;
+    width: 34em;
+}
+.detailed li {
+    margin-bottom: 1em;
+    font-family: 'Comfortaa', regular ;
+}
+
+.detailed img {
+    margin-right: 0.4em;
+}
+.detailed ul {
+    margin-bottom: 2em;
+}
+.link-laser {
+    display: flex;
+justify-content: space-between;
+margin-bottom: 2em;
+}
+
+.laser-photo a, .link-laser a{
+    padding: 0.4em 1em 0.4em 1em;
+background: #1B1835;
+color: #EDD66B;
+text-decoration: none;
+font-family: 'Comfortaa', regular ;
 }
