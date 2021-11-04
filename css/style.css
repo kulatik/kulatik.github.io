@@ -190,8 +190,17 @@ footer {
 .contact h5 {
     color:#EDD66B;
     padding-left:3.4em;
-    padding-top: 3.4em;
+    padding-top: 1.4em;
     padding-bottom: 2em;
+}
+.con a {
+    text-decoration: none;
+}
+.contact {
+    display: flex;
+}
+.kontakt {
+    margin-top: 2em;
 }
 .con {
     display: flex;
@@ -201,17 +210,24 @@ margin-bottom: 2em;
 .contact-with-me {
     margin-left: 4.8em;
 }
-.laser-title h2 {
-    padding-left: 0.2em;
-}
 
-.laser-title {
-    margin: 3.4em 0 0 3.4em;
+
+.repos {
+    margin-left: 10%;
+margin-top: 2em;
+padding-bottom: 2em;
+border-left: 3px solid #EDD66B;
 }
 .opis p {
     line-height: 180%;
 }
 @media only screen and (min-width:1072px) and (max-width:1990px) {
+    .laser-title h2 {
+        padding-left: 0.2em;
+    }
+    .laser-title {
+        margin: 3.4em 0 0 3.4em;
+    }
     .technologi-pos {
         display: flex;
         justify-content: space-between;
@@ -357,19 +373,19 @@ margin: 2em;
         margin: 2em;
     }
     .link-laser {
-        display: flex;
+        display: block;
         margin-bottom: 2em;
-        align-items: center;
+        
     }
     .link-laser a,p {
         margin: 1em;
     }
     .laser-photo {
-        margin: 2em;
-text-align: center;
+        margin: 4em 2em 2em 2em;
+        text-align: right;
     }
     .laser-photo img {
-        width: 100%;
+        width: 100% !important;
         margin-top: 2em;
     }
     .laser-photo a{
@@ -389,5 +405,11 @@ text-align: center;
     }
     .pos-photo {
         margin: 2em;
+    }
+    .opis p {
+        margin: 0;
+    }
+    .opis h5 {
+        margin-top: 1em;
     }
 }
