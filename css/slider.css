@@ -112,3 +112,10 @@ img {vertical-align: middle;}
 .mySlider:nth-child(2) {
     display: none;
   }
+.mypcSlide:nth-child(2){
+  display: none;
+}
+
+@media only screen and (min-width:300px) and (max-width:1072px) {
+.prev-1, .next-1 {padding: 1em 1em 2em 2em;}
+}
