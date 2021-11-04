@@ -300,7 +300,7 @@ margin-bottom: 1em;
         padding-bottom: 6em; 
         }
     .about_me {
-        margin-left: 3em;
+        margin-left: 1em;
         }
     .name_marg {
         margin-top: 2.6em;
@@ -320,5 +320,8 @@ margin-bottom: 1em;
     }
     .projecty h3 {
         margin: 2em 0 1em 1.3em;
+    }
+    .nav-menu li a {
+        margin: 1em;
     }
 }
