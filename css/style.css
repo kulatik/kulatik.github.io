@@ -412,4 +412,14 @@ margin: 2em;
     .opis h5 {
         margin-top: 1em;
     }
+    .repos {
+        margin-left: 10%;
+margin-top: 2em;
+padding-bottom: 2em;
+border-top: 3px solid #EDD66B;
+margin-right: 10%;
+    }
+    .contact{
+        display: block;
+    }
 }
