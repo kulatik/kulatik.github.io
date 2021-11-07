@@ -418,6 +418,7 @@ margin-top: 2em;
 padding-bottom: 2em;
 border-top: 3px solid #EDD66B;
 margin-right: 10%;
+border-left: none;
     }
     .contact{
         display: block;
