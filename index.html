@@ -35,14 +35,15 @@
                 <br /><br />
                 <h5>Jestem aspirującym frontend developerem. </h5>
                 <br /><br />
-                <h5>W 2018r. ukończyłem studia na kierunku</h5> <h5>Inżyniera Systemowa.</h5>
+                <h5 class="pc">W 2018r. ukończyłem studia na kierunku</h5> <h5 class="pc">Inżyniera Systemowa.</h5>
+                <h5 class="mobile">W 2018r. ukończyłem studia na kierunku Inżyniera Systemowa.</h5>
                 <br /><br />
                 <h5>Od 3 lat mieszkam w Polsce i posiadam pełen</h5><h5>dostęp do rynku pracy.</h5>
             </div>
 
             
-            <div >
-               
+            <div class="my_photo">
+               <img src="img/me.png">
             </div>
             
         </div>
@@ -59,49 +60,44 @@
             </div>
             <div class="table-skills" id="power">
                 <ul class="name-skills">
-                    <li><h5>CSS</h5></li>
-                    <li><h5>HTML</h5></li>
-                    <li><h5>PHP</h5></li>
-                    <li><h5>JavaScript</h5></li>
-                    <li><h5>React Native</h5></li>
-                    <li><h5>WordPress</h5></li>
-                    <li><h5>GIT</h5></li>
-                    <li><h5>GitHub</h5></li>
-                    <li><h5>Linux</h5></li>
-                    <li><h5>Cisco Packet Tracer</h5></li>
-                </ul>
-                <div class="level-skills">
-                    <div class="progress-css">
-                        <div class="color-css"></div>
-                    </div>
-                    <div class="progress-html">
+                    <li>
+                        <h5>CSS</h5>
+                        <div class="progress-css">
+                            <div class="color-css">
+                            </div>
+                        </div>
+                    </li>
+                    <li><h5>HTML</h5><div class="progress-html">
                         <div class="color-html"></div>
-                    </div>
-                    <div class="progress-php">
+                    </div></li>
+                    <li><h5>PHP</h5>  <div class="progress-php">
                         <div class="color-php"></div>
-                    </div>
-                    <div class="progress-js">
+                    </div></li>
+                    <li><h5>JavaScript</h5> <div class="progress-js">
                         <div class="color-js"></div>
-                    </div>
-                    <div class="progress-rn">
+                    </div></li>
+                    <li><h5>React Native</h5><div class="progress-rn">
                         <div class="color-rn"></div>
-                    </div>
-                    <div class="progress-wp">
+                    </div></li>
+                    </ul>
+                    <ul class="name-skills">
+                    <li><h5>WordPress</h5><div class="progress-wp">
                         <div class="color-wp"></div>
-                    </div>
-                    <div class="progress-git">
+                    </div></li>
+                    <li><h5>GIT</h5><div class="progress-git">
                         <div class="color-git"></div>
-                    </div>
-                    <div class="progress-gh">
+                    </div></li>
+                    <li><h5>GitHub</h5> <div class="progress-gh">
                         <div class="color-gh"></div>
-                    </div>
-                    <div class="progress-lx">
+                    </div></li>
+                    <li><h5>Linux</h5><div class="progress-lx">
                         <div class="color-lx"></div>
-                    </div>
-                    <div class="progress-cpt">
+                    </div></li>
+                    <li><h5>Cisco Packet Tracer</h5><div class="progress-cpt">
                         <div class="color-cpt"></div>
-                    </div>
-                </div>
+                    </div></li>
+                </ul>
+                
             </div>
         </div>
         <div class="arrow" style="background: white;">
@@ -112,22 +108,29 @@
             <div class="slideshow-container pc">
 
                 <div class="mySlides fade" id="slide">
-                    <img src="img/strefa.jpg" alt="certyfikat z strefakursów" width="60%" height="100%" style="margin: 2em;">
+                    <img src="img/strefa.png" alt="certyfikat z strefakursów" width="60%" height="100%" style="margin: 2em;">
                     <img src="img/eduweb.png" alt="certyfikat z eduweb" width="60%" height="100%" style="margin: 2em;" >
                   
                 </div>
                 
-                <div class="mySlides fade">
-                  
+                <div class="mySlides fade" style="display: none;">
+                    <img src="img/cisco_5.jpg" alt="certyfikat z Cisco" width="60%" height="100%" style="margin: 2em;">
+                    <img src="img/cisco_1.jpg" alt="certyfikat z Cisco" width="60%" height="100%" style="margin: 2em;">
                  
                 </div>
                 
-                <div class="mySlides fade">
-                  
+                <div class="mySlides fade" style="display: none;">
+                    <img src="img/cisco_2.jpg" alt="certyfikat z Cisco" width="60%" height="100%" style="margin: 2em;">
+                    <img src="img/cisco_3.jpg" alt="certyfikat z Cisco" width="60%" height="100%" style="margin: 2em;">
                 
                 
                 </div>
+                <div class="mySlides fade" style="display: none;justify-content: center;">
+                    <img src="img/certyfikat_pl.jpg" alt="certyfikat z języka polskiego" width="60%" height="100%" style="margin: 2em;width: 35%;">
+                    
                 
+                
+                </div>
                 <a class="prev" onclick="plusSlides(-1)"><img src="img/arrow-left.svg"></a>
                 <a class="next" onclick="plusSlides(1)"><img src="img/arrow-right.svg"></a>
                 
@@ -136,10 +139,13 @@
                 <br>
                 <div class="mobile-slider mobile-container">
                     <button class="mobile-button button-left" onclick="plusDivs(-1)"><img src="img/arrow-left.svg"></button>
-                    <img class="mySlide"  src="img/strefa.jpg" alt="certyfikat z strefakursów" width="60%" height="100%" style="margin: 2em;">
+                    <img class="mySlide"  src="img/strefa.png" alt="certyfikat z strefakursów" width="60%" height="100%" style="margin: 2em;">
                     <img class="mySlide"  src="img/eduweb.png" alt="certyfikat z eduweb" width="60%" height="100%" style="margin: 2em;">
-                    
-                  
+                    <img class="mySlide"  src="img/cisco_5.jpg" alt="certyfikat z Cisco" width="60%" height="100%" style="margin: 2em;">
+                    <img class="mySlide"  src="img/cisco_1.jpg" alt="certyfikat z Cisco" width="60%" height="100%" style="margin: 2em;">
+                    <img class="mySlide"  src="img/cisco_2.jpg" alt="certyfikat z Cisco" width="60%" height="100%" style="margin: 2em;">
+                    <img class="mySlide"  src="img/cisco_3.jpg" alt="certyfikat z Cisco" width="60%" height="100%" style="margin: 2em;">
+                    <img class="mySlide"  src="img/certyfikat_pl.jpg" alt="certyfikat z języka polskiego" width="60%" height="100%" style="margin: 2em;">
                    
                     <button class="mobile-button button-right" onclick="plusDivs(1)"><img src="img/arrow-right.svg"></button>
                   </div>
@@ -148,7 +154,7 @@
                 </div>
         </div>
         <div class="projecty">
-            <h3 style="color:black">Projecty:</h3>
+            <h3 style="color:black">Projekty</h3>
             <div class="project">
                 <div class="slideshow-container" id="projects">
 

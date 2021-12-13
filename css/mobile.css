@@ -1,0 +1,30 @@
+@media only screen and (min-width:1072px) and (max-width:1990px) {
+.hero {
+    background: #1b1835;
+    display: flex;
+    flex-direction: row;
+    padding-top: 6.5em;
+    padding-bottom: 6em;
+}
+.about_me {
+    margin-left: 9em;
+}
+
+}
+@media only screen and (min-width:300px) and (max-width:1072px) {
+    .hero {
+        background: #1b1835;
+    padding-top: 6.5em;
+    padding-bottom: 6em; 
+    }
+    .about_me {
+        margin-left: 3em;
+    }
+    .name_marg {
+        margin-top: 2.6em;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+margin-right: 2.7em;
+    }
+}

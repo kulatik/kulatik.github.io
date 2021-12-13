@@ -34,7 +34,12 @@ img {vertical-align: middle;}
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
+.prev {
+  transform: translateX(-50%);
+}
+.next {
+  transform: translateX(50%);
+}
 .prev-1, .next-1 {
     cursor: pointer;
     position: absolute;
@@ -93,8 +98,11 @@ img {vertical-align: middle;}
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+  
 }
-
+.pc .fade {
+  display: flex;
+}
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}

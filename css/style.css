@@ -58,17 +58,18 @@ li a{
     color:#FFFFFF;
 }
 /*@media only screen and (min-width:1072px) and (max-width:1990px) {}*/
+.mobile {
+    display: none;
+}
 .hero {
     background: #1b1835;
     display: flex;
     flex-direction: row;
     padding-top: 105px;
     padding-bottom: 6em;
+    justify-content: space-around;
 }
 
-.about_me {
-    margin-left: 9em;
-}
 .name_marg {
     margin-top: 40px;
     display: flex;
@@ -147,7 +148,7 @@ li a{
  .table-skills {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-around;
  }
  .level-skills {
     width: 65%;
@@ -166,7 +167,7 @@ li a{
  }
  .certsec h3 {
      color:#1b1835;
-     padding: 3.4em;
+     padding: 2em 0 1em 1.4em;
  }
  .certyfikaty {
     display: flex;
@@ -181,7 +182,7 @@ li a{
     justify-content: center;
   }
 .projecty h3{
-    margin:3.4em;
+    margin: 2em 0 1em 1.4em;
 }
 footer {
     background: #1B1835;
@@ -221,7 +222,7 @@ border-left: 3px solid #EDD66B;
 .opis p {
     line-height: 180%;
 }
-@media only screen and (min-width:1072px) and (max-width:1990px) {
+@media only screen and (min-width:1072px) and (max-width:1366px) {
     .laser-title h2 {
         padding-left: 0.2em;
     }
@@ -323,7 +324,10 @@ margin-bottom: 1em;
 .technologi-pos h5 {
     margin-bottom: 1em;
 }
-@media only screen and (min-width:300px) and (max-width:1072px) {
+@media only screen and (min-width:200px) and (max-width:1072px) {
+   .mobile {
+       display: block;
+   }
     .pc {
         display: none;
     }
@@ -337,15 +341,30 @@ margin: 2em;
     }
     .hero {
         background: #1b1835;
-        padding-top: 6.5em;
+        padding-top: 3em;
         padding-bottom: 6em; 
+        display: block;
+        }
+        .my_photo {
+            display: flex;
+            justify-content: center;
+            margin-top: 3em;
+        }
+        .my_photo img {
+            width: 80%;
+        }
+        .skills-title {
+            margin: 2em;
+        }
+        .table-skills {
+            display: block;
         }
     .about_me {
         margin-left: 2em;
         margin-right: 2em;
         }
     .name_marg {
-        margin-top: 2.6em;
+        margin-top: 2.4em;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -358,7 +377,10 @@ margin: 2em;
         padding: 1em 0 1em 1.3em;
     }
     .name-skills {
-        width: 31%;
+        width: 95%;
+    }
+    .certsec h3 {
+        padding: 1em 0 0 0.9em;
     }
     .projecty h3 {
         margin: 2em 0 1em 1.3em;
