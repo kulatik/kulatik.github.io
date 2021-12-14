@@ -15,9 +15,21 @@
     <body>
         <header>
             <nav>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <li><a href="index.html">Główna</a></li>
+                    <li><a href="index.html#power" onclick="window.open('index.html#power')">Umiejętności</a></li>
+                    <li><a href="index.html#projects" onclick="window.open('index.html#projects')">Projekty</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                    </div>
+                  </div>
+                  <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="img/burger-menu.svg" style="width: 8%;
+                    margin: 0 0 0 1em;"></span>
                 <ul class="nav-menu">
-                    <li><a href="index.html#power">Umiejętności</a></li>
-                    <li><a href="index.html#projects">Projekty</a></li>
+                    <li><a href="index.html">Główna</a></li>
+                    <li><a href="index.html#power" onclick="window.open('index.html#power')">Umiejętności</a></li>
+                    <li><a href="index.html#projects" onclick="window.open('index.html#projects')">Projekty</a></li>
                     <li><a href="#kontakt">Kontakt</a></li>
                 </ul>
             </nav>
@@ -51,7 +63,7 @@ W trakcie projektowania jest landing page z możliwością pobrania ebooka, skle
             <div>
                 <h5>Założenia:</h5>
                 <ul>
-                    <li><img src="img/list-circle.svg" >One page</li>
+                    <li><img src="img/list-circle.svg" >multifunkcyjna strona</li>
                     <li><img src="img/list-circle.svg" >formularz kontaktowy</li>
                     <li><img src="img/list-circle.svg" >rwd oraz zrobienie 3 break pointów</li>
                     <li><img src="img/list-circle.svg" >mapa lokalizacji</li>
@@ -76,7 +88,9 @@ W trakcie projektowania jest landing page z możliwością pobrania ebooka, skle
             </div>
         </section>
         <section class="pos-photo">
-            <div>
+            <div style="display: flex;
+            flex-direction: column;
+            align-items: end;">
                 <p>główna strona</p>
                 <img src="img/pososedstvu-glowna.png">
             </div>
@@ -107,17 +121,35 @@ W trakcie projektowania jest landing page z możliwością pobrania ebooka, skle
                 </div>
                 <div class="repos">
                     <div style="margin-left: 2em;">
-                    <h5 style="padding-top: 1.4em;
-                    padding-bottom: 2em;padding-left: 0;">Repozytorium:</h5>
+                    <h5 style="padding-left: 0;">Repozytorium:</h5>
                     <div class="con">
                         <img src="img/link.svg" style="margin-right: 2.4em;">
-                        <a href="https://github.com/kulatik" style="color:#EDD66B">Link</a>
-                        </div>
+                        <a href="https://github.com/kulatik" style="color:#EDD66B">Wchodzę na GitHub</a>
                     </div>
                 </div>
+                </div>
+            <div class="repos">
+                <div style="margin-left: 2em;">
+                <h5 style="padding-left: 0;">CV</h5>
+                <div class="con">
+                <img src="img/cv.svg" style="margin-right: 2.4em;">
+                <a href="CV_Mykyta_Ilchuk.pdf" style="text-decoration: none;color:#EDD66B">Pobieram CV</a>
+                </div>
             </div>
-            
-        </footer> 
+            </div>
+        </div>
+    </div>
+    
+</footer>
     </body>
     <script src="js/scrolling.js"></script>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
     </html>

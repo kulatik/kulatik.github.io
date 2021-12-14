@@ -31,9 +31,7 @@ img {vertical-align: middle;}
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+
 .prev {
   transform: translateX(-50%);
 }
@@ -62,9 +60,7 @@ img {vertical-align: middle;}
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev-1:hover, .next-1:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
+  
 
 /* Caption text */
 .text {

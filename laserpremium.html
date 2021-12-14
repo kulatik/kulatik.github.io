@@ -15,9 +15,21 @@
     <body>
         <header>
             <nav>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <li><a href="index.html">Główna</a></li>
+                    <li><a href="index.html#power" onclick="window.open('index.html#power')">Umiejętności</a></li>
+                    <li><a href="index.html#projects" onclick="window.open('index.html#projects')">Projekty</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                    </div>
+                  </div>
+                  <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="img/burger-menu.svg" style="width: 8%;
+                    margin: 0 0 0 1em;"></span>
                 <ul class="nav-menu">
-                    <li><a href="index.html#power">Umiejętności</a></li>
-                    <li><a href="index.html#projects">Projekty</a></li>
+                    <li><a href="index.html">Główna</a></li>
+                    <li><a href="index.html#power" onclick="window.open('index.html#power')">Umiejętności</a></li>
+                    <li><a href="index.html#projects" onclick="window.open('index.html#projects')">Projekty</a></li>
                     <li><a href="#kontakt">Kontakt</a></li>
                 </ul>
             </nav>
@@ -37,6 +49,7 @@
                     Klient życzył sobie prostej, czytelnej strony, 
                     która zawierałaby <br/> szczegółowe informacje o produktach, 
                     sposób świadczenia <br/> usług oraz umożliwiałaby kontakt.</p>
+                    <br/>
                 <h5>Założenia:</h5>
                 </div>
                 <ul>
@@ -55,10 +68,11 @@
                     <li><img src="img/list-circle.svg" >CSS</li>
                     <li><img src="img/list-circle.svg" >jQuery</li>
                 </ul>
+                <br/>
                 <h5 style="margin-bottom: 1em;">Link do strony</h5>
                 <div class="link-laser">
                     <p>www.laserpremium.pl</p>
-                    <div style="text-align: right;margin: 2em 0 2em 0;"><a href="http://laserpremium.pl/nasze-technologie/">strona produktowa</a></div>
+                    <div style="text-align: right;margin: 5em 0 2em 0;"><a href="http://laserpremium.pl/nasze-technologie/">strona produktowa</a></div>
                 </div>
                 <img src="img/laserpremium-2.png" style="width: 100%;">
             </div>
@@ -87,17 +101,35 @@
                 </div>
                 <div class="repos">
                     <div style="margin-left: 2em;">
-                    <h5 style="padding-top: 1.4em;
-                    padding-bottom: 2em;padding-left: 0;">Repozytorium:</h5>
+                    <h5 style="padding-left: 0;">Repozytorium:</h5>
                     <div class="con">
                         <img src="img/link.svg" style="margin-right: 2.4em;">
-                        <a href="https://github.com/kulatik" style="color:#EDD66B">Link</a>
-                        </div>
+                        <a href="https://github.com/kulatik" style="color:#EDD66B">Wchodzę na GitHub</a>
+                    </div>
+                    </div>
+                    </div>
+                <div class="repos">
+                    <div style="margin-left: 2em;">
+                    <h5 style="padding-left: 0;">CV</h5>
+                    <div class="con">
+                    <img src="img/cv.svg" style="margin-right: 2.4em;">
+                    <a href="CV_Mykyta_Ilchuk.pdf" style="text-decoration: none;color:#EDD66B">Pobieram CV</a>
                     </div>
                 </div>
+                </div>
             </div>
-            
-        </footer> 
+        </div>
+        
+    </footer>   
     </body>
     <script src="js/scrolling.js"></script>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
     </html>

@@ -15,12 +15,24 @@
     <body>
         <header>
             <nav>
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <li><a href="index.html">Główna</a></li>
+                        <li><a href="#power">Umiejętności</a></li>
+                        <li><a href="#projects">Projekty</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </div>
+                  </div>
+                  <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="img/burger-menu.svg" style="width: 8%;
+                    margin: 0 0 0 1em;"></span>
                 <ul class="nav-menu">
+                    <li><a href="index.html">Główna</a></li>
                     <li><a href="#power">Umiejętności</a></li>
                     <li><a href="#projects">Projekty</a></li>
                     <li><a href="#kontakt">Kontakt</a></li>
-                    
                 </ul>
+               
             </nav>
             
         </header>
@@ -159,13 +171,13 @@
                 <div class="slideshow-container" id="projects">
 
                     <div class="mySlider fade">
-                        <a href="laserpremium.html"><img src="img/laserpremium-group.png" alt="strona laserpremium" width="90%" height="50%" style="margin: 2em;"></a>
+                        <a href="laserpremium.html"><img src="img/laserpremium.jpg" alt="strona laserpremium" width="90%" height="50%" style="margin: 2em;"></a>
                         
                       
                     </div>
                     
                     <div class="mySlider fade">
-                       <a href="pososedstvu.html"><img src="img/pososedstvu-group.png" alt="strona pososedstvu" width="90%" height="50%" style="margin: 2em;"></a>
+                       <a href="pososedstvu.html"><img src="img/pososedstvu.jpg" alt="strona pososedstvu" width="90%" height="50%" style="margin: 2em;"></a>
                         
                      
                     </div>
@@ -198,12 +210,21 @@
                 </div>
                 <div class="repos">
                     <div style="margin-left: 2em;">
-                    <h5 style="padding-top: 1.4em;
-                    padding-bottom: 2em;padding-left: 0;">Repozytorium:</h5>
+                    <h5 style="padding-left: 0;">Repozytorium:</h5>
                     <div class="con">
                         <img src="img/link.svg" style="margin-right: 2.4em;">
-                        <a href="https://github.com/kulatik" style="color:#EDD66B">Link</a>
+                        <a href="https://github.com/kulatik" style="color:#EDD66B">Wchodzę na GitHub</a>
                         </div>
+                        </div>
+                        </div>
+                    <div class="repos">
+                        <div style="margin-left: 2em;">
+                        <h5 style="padding-left: 0;">CV</h5>
+                        <div class="con">
+                        <img src="img/cv.svg" style="margin-right: 2.4em;">
+                        <a href="CV_Mykyta_Ilchuk.pdf" style="text-decoration: none;color:#EDD66B">Pobieram CV</a>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -213,4 +234,13 @@
     </body>
     <script src="js/scrolling.js"></script>
     <script src="js/mobile_slider.js"></script>
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
 </html>
