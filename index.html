@@ -4,9 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Nikita</title>
-       
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/min-width-500.css">
+        <link rel="stylesheet" href="css/min-width-200_and_max-width-500.css">
+        <link rel="stylesheet" href="css/min-width-200_and_max-width-1072.css">
+        <link rel="stylesheet" href="css/min-width-1072_and_max-width-1366.css">
         <link rel="stylesheet" href="css/slider.css">
         <script src="js/slider_certyfikat.js"></script>
         <link rel="stylesheet" href="css/skills_loader.css">
@@ -38,7 +41,7 @@
         </header>
         <div class="hero">
             <div class="about_me">
-                <div><h1 >Dzień dobry!</h1></div>
+                <div><h1 id="auto_write"></h1></div>
                 <br />
                 <div class="name_marg"> 
                     <h3>Nazywam się Nikita Ilchuk</h3>
@@ -234,13 +237,6 @@
     </body>
     <script src="js/scrolling.js"></script>
     <script src="js/mobile_slider.js"></script>
-    <script>
-        function openNav() {
-          document.getElementById("myNav").style.width = "100%";
-        }
-        
-        function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-        }
-        </script>
+    <script src="js/burger.js"></script>
+        <script src="js/auto_text.js"></script>
 </html>

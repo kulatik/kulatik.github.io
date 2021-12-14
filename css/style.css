@@ -84,29 +84,9 @@ li a{
     background: #EDD66B;
     color: #1b1835;
 }
-/* Testowa animacja
-.typing-demo {
-  width: 22ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
-}
+ 
 
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
-*/
+
 .wrapper {
     height: 100vh;
     display: flex;
@@ -138,6 +118,14 @@ li a{
      padding-bottom: 0.4em;
      padding-left: 0.3em;
  }
+ .laser-title span {
+    background: #EDD66B;
+    z-index: -1;
+    height: 8%;
+    position: absolute;
+    display: flex;
+    align-items: end;
+}
  .name-skills li{
      margin: 2em;
  }
@@ -280,247 +268,4 @@ margin-bottom: 1.5em;
 }
 .contact a {
     font-family: 'Comfortaa', regular;
-}
-
-
-
-  
-@media only screen and (min-width:200px) and (max-width:1072px) {
-    .pos-photo {
-        text-align: -moz-right;
-    }
-    .mobile {
-        display: block;
-    }
-     .pc {
-         display: none;
-     }
-     .mobile-slider {
-         display: flex;
- margin: 2em;
-     }
-     .mobile-button {
-         background: #EDD66B;
-     border: 0;
-     }
-     .hero {
-         background: #1b1835;
-         padding-top: 3em;
-         padding-bottom: 6em; 
-         display: block;
-         }
-         .my_photo {
-             display: flex;
-             justify-content: center;
-             margin-top: 3em;
-         }
-         .my_photo img {
-             width: 80%;
-         }
-         .skills-title {
-             margin: 2em;
-         }
-         .table-skills {
-             display: block;
-         }
-     .about_me {
-         margin-left: 2em;
-         margin-right: 2em;
-         }
-     .name_marg {
-         margin-top: 2.4em;
-         display: flex;
-         flex-direction: column;
-         align-items: flex-end;
-         margin-right: 2.7em;
-         }
-     #projects img {
-         width: 70% !important; 
-     }
-     .certsec h3 {
-         padding: 1em 0 1em 1.3em;
-     }
-     .name-skills {
-         width: 95%;
-     }
-     .certsec h3 {
-         padding: 1em 0 0 0.9em;
-     }
-     .projecty h3 {
-         margin: 2em 0 1em 1.3em;
-     }
-     .nav-menu li a {
-         margin: 1em;
-     }
-     .laser-title {
-        margin: 4em 2em 2em 2em;
-     }
-     .detailed{
-         margin: 2em;
-     }
-     .link-laser {
-         display: block;
-         margin-bottom: 2em;
-         
-     }
-     
-     .laser-photo {
-         margin: 4em 2em 2em 2em;
-         text-align: right;
-     }
-     .laser-photo img {
-         width: 100% !important;
-         margin-top: 2em;
-     }
-     .laser-photo a{
-         margin: 1em;
-     }
-     .det-pos, .fun-pos {
-         margin: 2em;
-     }
-     .det-pos h5, .fun-pos h5 {
-        margin-left: 0.3em;
-     }
-     .technologi-pos {
-        margin: 2.2em 2.2em 3.2em 2.2em;
-     }
-     .technologi-pos div {
-         margin-bottom: 2em;
-     }
-     .pos-photo {
-         margin: 2em;
-     }
-     .opis p {
-         margin: 0;
-     }
-     .opis h5 {
-         margin-top: 1em;
-     }
-     .repos {
- border-top: 3px solid #EDD66B;
- margin-right: 10%;
- border-left: none;
-     }
-     .contact{
-         display: block;
-     }
- }
-  @media screen and (min-width: 200px) and (max-width: 500px){
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    } 
-    .nav-menu {
-          display: none;
-      }
-      .pos-photo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      .overlay-content a {
-          color:#1b1835
-      }
-      .overlay {
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #EDD66B;
-        background-color: #EDD66B;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-bottom: 2em;
-      }
-      
-      .overlay-content {
-        position: relative;
-        top: 25%;
-        width: 100%;
-        text-align: center;
-        margin-top: 8em;
-      }
-      .overlay-content li a{
-          margin:1em !important; 
-      }
-      .overlay a {
-        padding: 8px;
-        text-decoration: none;
-        font-size: 2em;
-        color: #1b1835;
-        display: block;
-        transition: 0.3s;
-      }
-      
-      .overlay a:hover, .overlay a:focus {
-        color: #f1f1f1;
-      }
-      
-      .overlay .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
-      }
-    
-  }
-  @media only screen and (min-width:500px){
-    .burger, .overlay {
-        display: none;
-    }
-}
-@media only screen and (min-width:1072px) and (max-width:1366px) {
-    .laser-title h2 {
-        padding-left: 0.2em;
-    }
-    .laser-title {
-        margin: 3.4em 0 0 3.4em;
-    }
-    .technologi-pos {
-        display: flex;
-        justify-content: space-between;
-        margin: 4.3em 4.3em 6em 4.3em;
-    }
-    .pos-photo {
-        display: flex;
-        justify-content: space-around;
-        margin: 2em;
-    }
-    .detailed-pos {
-        display: flex;
-        margin: 2em;
-    }
-    .det-pos, .fun-pos {
-        width: 100%;
-        margin: 2.3em;
-    }
-    .laser-photo a {
-        margin-bottom: 1.5em;
-    }
-    .laser-photo {
-        margin: 2em;
-        display: flex;
-    flex-direction: column;
-    align-items: end;
-    }
-    .laser-title span {
-        background: #EDD66B;
-    position: absolute;
-    z-index: -1;
-    height: 4%;
-    width: 30%;
-    top: 22%;
-    }
-    .laserpremium {
-    display: flex;
-    margin: 3.4em;  
-}
-.opis p {
-    line-height: 180%;
-    width: 34em;
-}
 }

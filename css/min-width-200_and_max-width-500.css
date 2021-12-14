@@ -1,0 +1,63 @@
+  @media screen and (min-width: 200px) and (max-width: 500px){
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    } 
+    .nav-menu {
+          display: none;
+      }
+      .pos-photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .overlay-content a {
+          color:#1b1835
+      }
+      .overlay {
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #EDD66B;
+        background-color: #EDD66B;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-bottom: 2em;
+      }
+      
+      .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 8em;
+      }
+      .overlay-content li a{
+          margin:1em !important; 
+      }
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 2em;
+        color: #1b1835;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+      
+      .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+      }
+    
+  }
