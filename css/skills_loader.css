@@ -9,9 +9,8 @@
     background-color: #1b1835;
     width: 0px;
     height: 16px;
-    animation: progres-css 4s; 
+    animation: progres-css 2s; 
     animation-fill-mode: both;
-    animation-delay: 2s;
  
 }
 @keyframes progres-css{
@@ -33,9 +32,8 @@
     background-color: #1b1835;
     width: 0px;
     height: 16px;
-    animation: progres-html 4s; 
+    animation: progres-html 2s; 
     animation-fill-mode: both;
-    animation-delay: 2s;
 }
 @keyframes progres-html{
     0% {width: 0%; }
@@ -55,9 +53,8 @@
     background-color: #1b1835;
     width: 0px;
     height: 16px;
-    animation: progres-php 4s; 
+    animation: progres-php 2s; 
     animation-fill-mode: both;
-    animation-delay: 2s;
 }
 @keyframes progres-php{
     0% {width: 0%; }
@@ -77,9 +74,8 @@
     background-color: #1b1835;
     width: 0px;
     height: 16px;
-    animation: progres-js 4s; 
+    animation: progres-js 2s; 
     animation-fill-mode: both;
-    animation-delay: 2s;
 }
 @keyframes progres-js{
     0% {width: 0%; }
@@ -99,9 +95,8 @@
     background-color: #1b1835;
     width: 0px;
     height: 16px;
-    animation: progres-rn 4s; 
+    animation: progres-rn 2s; 
     animation-fill-mode: both;
-    animation-delay: 2s;
 }
 @keyframes progres-rn{
     0% {width: 0%; }
@@ -121,9 +116,8 @@
     background-color: #1b1835;
     width: 0px;
     height: 16px;
-    animation: progres-wp 4s; 
+    animation: progres-wp 2s; 
     animation-fill-mode: both;
-    animation-delay: 2s;
 }
 @keyframes progres-wp{
     0% {width: 0%; }
@@ -143,9 +137,8 @@
     background-color: #1b1835;
     width: 0px;
     height: 16px;
-    animation: progres-git 4s; 
+    animation: progres-git 2s; 
     animation-fill-mode: both;
-    animation-delay: 2s;
 }
 @keyframes progres-git{
     0% {width: 0%; }
@@ -165,9 +158,8 @@
     background-color: #1b1835;
     width: 0px;
     height: 16px;
-    animation: progres-gh 4s; 
+    animation: progres-gh 2s; 
     animation-fill-mode: both;
-    animation-delay: 2s;
 }
 @keyframes progres-gh{
     0% {width: 0%; }
@@ -187,9 +179,8 @@
     background-color: #1b1835;
     width: 0px;
     height: 16px;
-    animation: progres-lx 4s; 
+    animation: progres-lx 2s; 
     animation-fill-mode: both;
-    animation-delay: 2s;
 }
 @keyframes progres-lx{
     0% {width: 0%; }
@@ -209,9 +200,8 @@
     background-color: #1b1835;
     width: 0px;
     height: 16px;
-    animation: progres-cpt 4s; 
+    animation: progres-cpt 2s; 
     animation-fill-mode: both;
-    animation-delay: 2s;
 }
 @keyframes progres-cpt{
     0% {width: 0%; }
